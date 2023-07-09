@@ -1,0 +1,136 @@
+:root {
+  --primary-text-color: #2c2c2c;
+  --nav-link-color-accent: #bbf330;
+  --black: #2c2c2c;
+  --button-green: #bbf330;
+  --white: #fefefe;
+  --yellow-main: #ffe550;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+  font-size: 14px;
+}
+/* reset */
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+/*-----------Hero--------------*/
+
+.hero-title {
+  color: var(--black);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+
+  width: 502px;
+  height: 116px;
+
+  margin-bottom: 28px;
+}
+
+.paragraph-text {
+  color: var(--black);
+  font-size: 16px;
+  line-height: 1.5;
+
+  margin-bottom: 40px;
+}
+
+.hero-paragraph {
+  width: 511px;
+  height: 69px;
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 98px;
+  height: 32px;
+
+  padding: 6px 18px;
+
+  border: transparent;
+  border-radius: 30px;
+  background: var(--button-green);
+
+  color: var(--black);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.hero-image {
+  width: 580px;
+  height: 580px;
+  border-radius: 580px;
+  border: 26px solid var(--yellow-main);
+  background: var(--white);
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 14px 14px 0;
+  height: 608px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 159px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.hero-vector-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.hero-vector-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
